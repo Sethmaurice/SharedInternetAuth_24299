@@ -1,29 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:calculator/Register.dart';
-import 'package:calculator/Seth/Welcome.dart'; // Import the homepage
-import 'package:calculator/NavBar.dart'; // Import the homepage
+import 'package:calculator/Seth/Welcome.dart'; //
+import 'package:calculator/NavBar.dart'; //
+import 'package:calculator/main.dart'; //
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    // Controller for the username and password text fields
     TextEditingController usernameController = TextEditingController();
     TextEditingController passwordController = TextEditingController();
 
-    // Function to check credentials
     void checkCredentials() {
-      // Check if the username and password match
       if (usernameController.text == 'admin' &&
           passwordController.text == '1234') {
-        // Navigate to the homepage
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => Welcome()),
+          MaterialPageRoute(builder: (context) => MyHomePage()),
         );
       } else {
-        // Show a popup message if credentials are incorrect
         showDialog(
           context: context,
           builder: (BuildContext context) {
@@ -33,7 +29,7 @@ class Login extends StatelessWidget {
               actions: [
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.pop(context); // Close the dialog
+                    Navigator.pop(context);
                   },
                   child: Text('OK'),
                 ),
@@ -70,8 +66,7 @@ class Login extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Perform login logic here
-                checkCredentials(); // Call the function to check credentials
+                checkCredentials();
               },
               child: Text('Login'),
             ),
