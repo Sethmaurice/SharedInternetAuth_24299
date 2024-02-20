@@ -17,6 +17,7 @@ dependencies:
   # internet_connection_checker: 0.0.1+4 # Update to the latest version
   internet_connection_checker: ^1.0.0+1
   connectivity_plus: ^2.3.5
+  fluttertoast: ^8.0.8
 
 dev_dependencies:
   flutter_test:
