@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:calculator/broad/Second.dart';
 import 'dart:async';
-import 'package:connectivity/connectivity.dart'; // Import the connectivity package
+import 'package:connectivity/connectivity.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Internet extends StatefulWidget {
@@ -14,7 +14,7 @@ class Internet extends StatefulWidget {
 
 class _InternetState extends State<Internet> {
   late StreamSubscription subscription;
-  var isDeviceConnected = true; // Assume initially connected
+  var isDeviceConnected = true;
 
   @override
   void initState() {
