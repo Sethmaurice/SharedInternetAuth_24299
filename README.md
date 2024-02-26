@@ -1,3 +1,6 @@
 -The app  detect Internet connectivity and toast a message in case of change
 - Shared Preferences: use different themes
 - Authentication API: Implement SignUp and SignIn
+- Implement Provider access to contact
+- Implement Provider access to Gallery and camera(upload)
+- Sign In with google Authentication API
