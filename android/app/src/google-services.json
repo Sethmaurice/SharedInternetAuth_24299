@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "577581836552",
+    "project_id": "silent-album-414721",
+    "storage_bucket": "silent-album-414721.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577581836552:android:bb680da115911c1ea7a4bd",
+        "android_client_info": {
+          "package_name": "com.example.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577581836552-f3datq8p12n7r9dihhl9ungs3qkr532l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calculator",
+            "certificate_hash": "04ea2c1fbc15e54ea99899eb6325a9e3c2c85b2a"
+          }
+        },
+        {
+          "client_id": "577581836552-47m4dg20gc3lpggble9a658i190ftpci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-r-Frj09VQ1zPjX3I8Uca7cloQ0fwZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577581836552-47m4dg20gc3lpggble9a658i190ftpci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,6 +5,7 @@ import 'Seth/About.dart';
 import 'Seth/Welcome.dart';
 import 'Seth/Contact.dart';
 import 'Login.dart';
+import 'Vid/Camera.dart';
 
 // Import the file where ThemeNotifier is defined
 import 'main.dart';
@@ -82,7 +83,15 @@ class NavBar extends StatelessWidget {
             title: Text('Exit'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.pushNamed(context, '/main');
+              Navigator.pushNamed(context, '/login');
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.camera),
+            title: Text('Camera'),
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Camera()));
             },
           ),
         ],

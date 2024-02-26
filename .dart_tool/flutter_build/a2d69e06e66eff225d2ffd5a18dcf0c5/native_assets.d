@@ -1,0 +1,1 @@
+ C:\\Users\\Administrator\\OneDrive\\AUCA\\sem10\\mobile\\projects\\calculator\\.dart_tool\\flutter_build\\a2d69e06e66eff225d2ffd5a18dcf0c5\\native_assets.yaml: 

@@ -18,6 +18,12 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   connectivity_plus: ^2.3.5
   fluttertoast: ^8.0.8
+  image_picker: ^0.8.4+1
+  path_provider: ^2.0.8
+  camera: 0.10.5+9
+  firebase_core: ^1.10.0
+  firebase_auth: ^4.4.0
+  google_sign_in: ^5.2.1
 
 dev_dependencies:
   flutter_test:

@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.calculator"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml
+10
+11    <!-- Add this line to request permission to access the internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:4:10-72
+12-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:4:27-69
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:5:10-70
+13-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:5:27-67
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:6:10-85
+14-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:6:27-82
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:7:10-86
+15-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:7:27-83
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[:camera_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+16-->[:camera_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:connectivity] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\connectivity\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+17-->[:connectivity] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\connectivity\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+18-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+19-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+20    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+20-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+20-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+21-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+21-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+22-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+23
+24    <permission
+24-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.calculator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+29
+30    <application
+31        android:name="android.app.Application"
+31-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:13:9-42
+32        package="com.example.calculator"
+32-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:10:9-41
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.10.1] C:\Users\Administrator\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:14:9-43
+35        android:label="calculator" >
+35-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:12:9-35
+36        <activity
+36-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:18:9-38:20
+37            android:name="com.example.calculator.MainActivity"
+37-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:19:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:23:13-163
+39            android:exported="true"
+39-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:20:13-36
+40            android:hardwareAccelerated="true"
+40-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:24:13-47
+41            android:launchMode="singleTop"
+41-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:21:13-43
+42            android:theme="@style/LaunchTheme"
+42-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:22:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:25:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:30:13-33:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:31:15-70
+53                android:resource="@style/NormalTheme" />
+53-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:32:15-52
+54
+55            <intent-filter>
+55-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:34:13-37:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:35:17-68
+56-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:35:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:36:17-76
+58-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:36:27-74
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+65-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:41:9-43:33
+66            android:name="flutterEmbedding"
+66-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:42:13-44
+67            android:value="2" />
+67-->C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\android\app\src\main\AndroidManifest.xml:43:13-30
+68
+69        <provider
+69-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+70            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+70-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+71            android:authorities="com.example.calculator.flutter.image_provider"
+71-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+72            android:exported="false"
+72-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+73            android:grantUriPermissions="true" >
+73-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+74            <meta-data
+74-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+76                android:resource="@xml/flutter_image_picker_file_paths" />
+76-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+77        </provider>
+78
+79        <receiver
+79-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+80            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+80-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+81            android:exported="false" />
+81-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+82        <receiver
+82-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+83            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+83-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+84            android:exported="false" />
+84-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+85        <receiver
+85-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+86            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+86-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+87            android:exported="false" >
+87-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+88            <intent-filter>
+88-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+89                <action android:name="android.intent.action.BOOT_COMPLETED" />
+89-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-79
+89-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-76
+90                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+90-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-84
+90-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-81
+91                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+91-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:17-82
+91-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:25-79
+92                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+92-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-82
+92-->[:flutter_local_notifications] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-79
+93            </intent-filter>
+94        </receiver>
+95
+96        <provider
+96-->[:share] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+97            android:name="io.flutter.plugins.share.ShareFileProvider"
+97-->[:share] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-70
+98            android:authorities="com.example.calculator.flutter.share_provider"
+98-->[:share] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+99            android:exported="false"
+99-->[:share] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+100            android:grantUriPermissions="true" >
+100-->[:share] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+101            <meta-data
+101-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+103                android:resource="@xml/flutter_share_file_paths" />
+103-->[:image_picker_android] C:\Users\Administrator\OneDrive\AUCA\sem10\mobile\projects\calculator\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+104        </provider>
+105
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+107            android:name="androidx.window.extensions"
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+109        <uses-library
+109-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+110            android:name="androidx.window.sidecar"
+110-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+111            android:required="false" />
+111-->[androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+112
+113        <provider
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+115            android:authorities="com.example.calculator.androidx-startup"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+119                android:value="androidx.startup" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+120        </provider>
+121
+122        <receiver
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+124            android:directBootAware="false"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+125            android:enabled="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+126            android:exported="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+127            android:permission="android.permission.DUMP" >
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+139            </intent-filter>
+140        </receiver>
+141    </application>
+142
+143</manifest>

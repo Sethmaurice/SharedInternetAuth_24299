@@ -84,7 +84,6 @@ class Login extends StatelessWidget {
                   onPressed: () {},
                   icon: Icon(Icons.g_mobiledata_outlined),
                   label: Text('Signup with google')),
-              // Text('Sign Up with Google'),
             ),
           ],
         ),

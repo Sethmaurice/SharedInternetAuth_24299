@@ -6,6 +6,7 @@ import 'Login.dart';
 import 'Register.dart';
 import 'package:calculator/Seth/Welcome.dart';
 import 'package:calculator/broad/Internet.dart';
+import 'package:calculator/Vid/Camera.dart';
 
 void main() {
   runApp(
@@ -32,7 +33,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: context.watch<ThemeNotifier>().value,
-      home: Internet(),
+      home: MyHomePage(),
       routes: {
         '/login': (context) => Login(),
         '/Register': (context) => Register(),
